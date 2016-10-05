@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="IDC-Rb-yjs">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2I5-Ms-z3E">
+                                <rect key="frame" x="206" y="191" width="187" height="217"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nearbyLogo" translatesAutoresizingMaskIntoConstraints="NO" id="9jo-oG-Te6">
+                                        <rect key="frame" x="38" y="20" width="114" height="128"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NearBy ATMs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Wd-5m-QTb">
+                                        <rect key="frame" x="20" y="149" width="147" height="48"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                        <color key="textColor" red="0.0" green="0.33725490200000002" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="217" id="hcf-o6-f8W"/>
+                                    <constraint firstAttribute="width" constant="187" id="pkk-55-4Kw"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IDC-Rb-yjs" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="6wB-up-4Wp"/>
+                            <constraint firstItem="IDC-Rb-yjs" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="8J1-fW-GYg"/>
+                            <constraint firstAttribute="trailing" secondItem="IDC-Rb-yjs" secondAttribute="trailing" id="ChX-2D-Nf6"/>
+                            <constraint firstItem="2I5-Ms-z3E" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Y11-l1-YOE"/>
+                            <constraint firstItem="2I5-Ms-z3E" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="tum-0v-nwm"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="IDC-Rb-yjs" secondAttribute="bottom" id="vTX-sc-ZUz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="nearbyLogo" width="153" height="200"/>
+        <image name="splash" width="320" height="460"/>
+    </resources>
+</document>
