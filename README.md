@@ -18,7 +18,7 @@ RUNTIME REQUIREMENTS:
 
 iOS 8.0 or later
 
-Before running the project reun "pod install" command on terminal and open the workspace
+Before running the project run "pod install" command on terminal and open the workspace
 
 ================================================================================
 PACKAGING LIST:

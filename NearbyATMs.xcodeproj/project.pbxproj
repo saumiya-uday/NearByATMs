@@ -26,6 +26,7 @@
 		F43096291DA49CB200B01775 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = F43096281DA49CB200B01775 /* Location.m */; };
 		F430962D1DA49CDC00B01775 /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F430962C1DA49CDC00B01775 /* MapAnnotation.m */; };
 		F43096301DA49F9900B01775 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F43096321DA49F9900B01775 /* Localizable.strings */; };
+		F4DF15281DA4AD6100E34DEA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F4DF15271DA4AD6100E34DEA /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		F430962B1DA49CDC00B01775 /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
 		F430962C1DA49CDC00B01775 /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
 		F43096331DA49FD600B01775 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4DF15271DA4AD6100E34DEA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 		F43095D91DA444AD00B01775 = {
 			isa = PBXGroup;
 			children = (
+				F4DF15271DA4AD6100E34DEA /* README.md */,
 				F43095E41DA444AD00B01775 /* NearbyATMs */,
 				F43095FE1DA444AE00B01775 /* NearbyATMsTests */,
 				F43095E31DA444AD00B01775 /* Products */,
@@ -444,6 +447,7 @@
 				F43096171DA4497000B01775 /* NALocationController.m in Sources */,
 				F43096181DA4497000B01775 /* NAMapController.m in Sources */,
 				F43096111DA4496400B01775 /* LocationManager.m in Sources */,
+				F4DF15281DA4AD6100E34DEA /* README.md in Sources */,
 				F43096291DA49CB200B01775 /* Location.m in Sources */,
 				F43096251DA4497E00B01775 /* Reachability.m in Sources */,
 				F430960D1DA4494B00B01775 /* WebServiceManager.m in Sources */,
